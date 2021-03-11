@@ -1,0 +1,268 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+body {
+    background: linear-gradient(
+80deg
+,#d340ae,rgba(79, 3, 129, 0.89))
+
+}
+     
+
+header {
+    height: 50px;
+}
+/*menu*/
+nav {
+	background: #000000;
+	height: 75px;
+	width: 100%;
+    position: fixed;
+    
+}
+label.logo {
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+nav ul li a.active, nav ul li a:hover {
+	background: #270486;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	float: right;
+	line-height: 80px;
+	margin-right: 40 px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #1d075f;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	nav ul li a:hover, nav ul li a.active {
+		background: none;
+		color: #5534af;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
+    /*PARALLAX*/
+    #plx {
+        background:url(imagens/programa22.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover ;
+	
+    }
+    .witle {
+        padding: 50px 20px;
+    }
+    .witle h2 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+
+
+/*TELA INICIAL*/
+  section#inicio{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 70px;
+    padding: 40px 0px 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    
+}
+h2.titulo {
+    padding: 30px 0 0;
+	font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+#contato {
+    border-radius: 50px;
+    padding: 20px;
+    background: linear-gradient(
+        200deg
+        ,#34b8e0,rgba(29, 51, 177, 0.89))
+}
+/*SOBRE*/
+#tsobre {
+	text-align: center;
+	font-size: 50px;
+}
+
+#gato{
+	margin: 1px 8px 0px 1px;
+}
+
+.texto {
+	font-size: 25px;
+	text-indent: 3em;
+}
+#wines {
+	background-image: url(imagens/livros1.jpeg);
+	background-position: left;
+	height: 600px;
+	background:#f7f7f7;
+	
+}
+
+
+
+/*EXPERIÊNCIA*/
+
+#plx2 {
+	background:url(imagens/teclado2.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover ;
+	color: rgb(255, 255, 255);
+} 
+#tituloe {
+	font-size: 60px;
+	text-align: center;
+}
+
+.witle2 {
+	height: 600px;
+	font-size:20px;
+}
+#expe {
+	font-size: 30px;
+}
+
+
+
+/*CONTATO*/
+#h2c {
+	text-align: center;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+}
+#tamanho {
+	height: 400px;
+}
+div#sss {
+    margin: 100px;
+}
+
+.rede{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4s ease-out;
+    border-radius: 50%;
+}
+
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+
+div#fac{
+    background-color: #2372a3;
+	margin-left: 35%;
+
+}
+div#ins{
+   background-color: #3f729b;
+   
+}
+
+div#git { 
+	background-color: #999999;
+}
+div#wpp {
+	background-color: rgb(35, 194, 35);
+}
+.iconew {
+	margin: 12px;
+	padding: 1px;
+	width: 55px;
+}
+.icone{
+    margin: 15px;
+    padding: 1px;
+    width: 50px;
+}
+
+#out {
+	background-color: rgb(69, 69, 224);
+}
+#final {
+	text-align: center;
+}
+
+
