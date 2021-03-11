@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;  
 }
 
+
 body {
     background: linear-gradient(
 80deg
@@ -81,13 +82,14 @@ nav ul li a.active, nav ul li a:hover {
 @media (max-width: 858px){
 	.checkbtn {
 		display: block;
+
 	}
 	ul{
 		position: fixed;
 		width: 100%;
 		height: 100vh;
 		background: #1d075f;
-		top: 80px;
+		top: 70px;
 		left: -100%;
 		text-align: center;
 		transition: all .5s;
@@ -164,6 +166,9 @@ h2.titulo {
 	margin: 1px 8px 0px 1px;
 }
 
+
+
+
 .texto {
 	font-size: 25px;
 	text-indent: 3em;
@@ -174,6 +179,23 @@ h2.titulo {
 	height: 600px;
 	background:#f7f7f7;
 	
+}
+@media (max-width: 950px) {
+	#tsobre {
+		float: right;
+		font-size: 30px;
+	}
+	.texto {
+		font-size: 18px;
+	}
+	.cont{
+		width: 300px;
+		height: 12px;
+	}
+	.cont img {
+		width: 100%;
+		height: auto;
+	}
 }
 
 
@@ -201,7 +223,14 @@ h2.titulo {
 	font-size: 30px;
 }
 
-
+@media (max-width: 950px) {
+	#tituloe {
+		font-size: 30px;
+	}
+	#expe{
+		height: 100px;
+	}
+}
 
 /*CONTATO*/
 #h2c {
@@ -264,5 +293,4 @@ div#wpp {
 #final {
 	text-align: center;
 }
-
 
