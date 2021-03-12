@@ -33,16 +33,17 @@ label.logo {
 	padding: 0 100px;
 	font-weight: bold;
 }
-nav ul {
+nav ul.fir {
 	float: right;
 	margin-right: 20px;
+	
 }
-nav ul li {
+nav ul.fir li {
 	display: inline-block;
 	line-height: 80px;
 	margin: 0 5px;
 }
-nav ul li a {
+nav ul.fir li a {
 	color: white;
 	font-size: 17px;
 	padding: 7px 13px;
@@ -51,10 +52,10 @@ nav ul li a {
     text-decoration: none;
     
 }
-nav ul li a:hover{
+nav ul.fir li a:hover{
     color: rgb(255, 255, 255);
 }
-nav ul li a.active, nav ul li a:hover {
+nav ul.fir li a.active, nav ul.fir li a:hover {
 	background: #270486;
 	transition: .5s;
 }
@@ -72,10 +73,10 @@ nav ul li a.active, nav ul li a:hover {
 }
 @media (max-width: 952px){
 	label.logo{
-		font-size: 30px;
-		padding-left: 50px;
+		font-size: 23px;
+		padding-left: 20px;
 	}
-	nav ul li a{
+	nav ul.fir li a{
 		font-size: 16px;
 	}
 }
@@ -84,7 +85,7 @@ nav ul li a.active, nav ul li a:hover {
 		display: block;
 
 	}
-	ul{
+	ul.fir{
 		position: fixed;
 		width: 100%;
 		height: 100vh;
@@ -94,22 +95,22 @@ nav ul li a.active, nav ul li a:hover {
 		text-align: center;
 		transition: all .5s;
 	}
-	nav ul li{
+	nav ul.fir li{
 		display: block;
 		margin: 50px 0;
 		line-height: 30px;
 	}
-	nav ul li a {
+	nav ul.fir li a {
 		font-size: 20px;
 	}
-	nav ul li a:hover, nav ul li a.active {
+	nav ul.fir li a:hover, nav ul li a.active {
 		background: none;
 		color: #5534af;
 	}
-	#check:checked ~ ul {
+	#check:checked ~ ul.fir {
 		left: 0;
 	}
-}
+
     /*PARALLAX*/
     #plx {
         background:url(imagens/programa22.jpg);
@@ -213,7 +214,7 @@ h2.titulo {
 }
 @media (max-width: 950px) {
 	#tsobre {
-		float: right;
+		text-align: justify;
 		font-size: 30px;
 	}
 	.texto {
@@ -230,7 +231,7 @@ h2.titulo {
 }
 
 @media (max-width: 600px) {
-	#tsobre {
+	h2#tsobre {
 		float: right;
 		font-size: 25px;
 	}
@@ -273,14 +274,14 @@ h2.titulo {
 }
 
 @media (max-width: 600px) {
-	#tituloe {
+	h2#tituloe {
 		font-size: 30px;
 	}
-	#expe{
-  		width: 100%;
-  		text-align: center;
-		height: 100px;
-		padding: 100px;
+	ul#expe{
+		font-size: 25px;
+	}
+	.progress {
+		font-size: px;
 	}
 }
 
