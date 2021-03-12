@@ -127,6 +127,18 @@ nav ul li a.active, nav ul li a:hover {
         font-weight: bold;
     }
 
+	@media (max-width: 500px) {
+		#plx {
+
+			background:url(imagens/programa22p.jpg);
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover ;
+		
+		}		
+	}
+
 
 
 /*TELA INICIAL*/
@@ -155,6 +167,16 @@ h2.titulo {
     background: linear-gradient(
         200deg
         ,#34b8e0,rgba(29, 51, 177, 0.89))
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 50px;
+	}
+	h2.titulo {
+		font-size: 25px;
+	}
+
 }
 /*SOBRE*/
 #tsobre {
@@ -198,6 +220,24 @@ h2.titulo {
 	}
 }
 
+@media (max-width: 500px) {
+	#tsobre {
+		float: right;
+		font-size: 20px;
+	}
+	.texto {
+		font-size: 15px;
+	}
+	.cont{
+		width: 200px;
+		height: 12px;
+	}
+	.cont img {
+		width: 100%;
+		height: auto;
+	}
+}
+
 
 
 /*EXPERIÊNCIA*/
@@ -223,12 +263,14 @@ h2.titulo {
 	font-size: 30px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 600px) {
 	#tituloe {
 		font-size: 30px;
 	}
 	#expe{
-		height: 100px;
+  		width: 100%;
+  		text-align: center;
+		  height: 100px;
 	}
 }
 
