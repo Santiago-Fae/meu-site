@@ -110,6 +110,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 	#check:checked ~ ul.fir {
 		left: 0;
 	}
+}
 
     /*PARALLAX*/
     #plx {
@@ -140,7 +141,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 		}		
 	}
 
-
+}
 
 /*TELA INICIAL*/
   section#inicio{
@@ -274,16 +275,14 @@ h2.titulo {
 }
 
 @media (max-width: 600px) {
-	h2#tituloe {
+	tituloe {
 		font-size: 30px;
 	}
-	ul#expe{
+	expe{
 		font-size: 25px;
 	
 	}
-	.progress {
-		font-size: px;
-	}
+
 }
 
 /*CONTATO*/
