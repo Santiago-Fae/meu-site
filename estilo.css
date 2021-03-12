@@ -141,7 +141,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 		}		
 	}
 
-}
+
 
 /*TELA INICIAL*/
   section#inicio{
@@ -171,24 +171,7 @@ h2.titulo {
         ,#34b8e0,rgba(29, 51, 177, 0.89))
 }
 
-@media (max-width: 950px) {
-	h1 {
-		font-size: 60px;
-	}
-	h2.titulo {
-		font-size: 30px;
-	}
-}
 
-@media (max-width: 600px) {
-	h1 {
-		font-size: 50px;
-	}
-	h2.titulo {
-		font-size: 25px;
-	}
-
-}
 /*SOBRE*/
 #tsobre {
 	text-align: center;
@@ -200,54 +183,20 @@ h2.titulo {
 }
 
 
-
-
 .texto {
 	font-size: 25px;
 	text-indent: 3em;
 }
 #wines {
-	background-image: url(imagens/livros1.jpeg);
+	background-image: url(imagens/gatot.jpg);
 	background-position: left;
 	height: 600px;
 	background:#f7f7f7;
 	
 }
-@media (max-width: 950px) {
-	#tsobre {
-		text-align: justify;
-		font-size: 30px;
-	}
-	.texto {
-		font-size: 18px;
-	}
-	.cont{
-		width: 300px;
-		height: 12px;
-	}
-	.cont img {
-		width: 100%;
-		height: auto;
-	}
-}
 
-@media (max-width: 600px) {
-	h2#tsobre {
-		float: right;
-		font-size: 25px;
-	}
-	.texto {
-		font-size: 16px;
-	}
-	.cont{
-		width: 200px;
-		height: 12px;
-	}
-	.cont img {
-		width: 100%;
-		height: auto;
-	}
-}
+
+
 
 
 
@@ -270,22 +219,23 @@ h2.titulo {
 	height: 600px;
 	font-size:20px;
 }
-#expe {
+#expe1 {
+	font-size: 35px;
+}
+#expe2 {
+	width: 400px;
+	height: 20px;
+}
+#expe3 {
+	font-size: 30px;
+}
+#expe4 {
 	font-size: 30px;
 }
 
-@media (max-width: 600px) {
-	tituloe {
-		font-size: 30px;
-	}
-	expe{
-		font-size: 25px;
-	
-	}
-
-}
 
 /*CONTATO*/
+
 #h2c {
 	text-align: center;
 	font-size: 50px;
@@ -347,7 +297,129 @@ div#wpp {
 	text-align: center;
 }
 
-@media(max-width: 950px) {
+
+
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+	/*TELA INICIAL*/
+
+	h1 {
+		font-size: 50px;
+	}
+	h2.titulo {
+		font-size: 25px;
+	}
+
+
+	/*SOBRE*/
+
+	h2#tsobre {
+		text-align: rig;
+		font-size: 25px;
+	}
+	.texto {
+		position: relative;
+		font-size: 16px;
+		text-indent: 1.5em;
+	}
+	#gato{
+		width: 200px;
+		height: 12px;
+	}
+	#gato{
+		width: 100%;
+		height: auto;
+	}
+
+	/*EXPERIÊNCIA*/
+
+	#tituloe {
+		font-size: 30px;
+	}
+	#expe1{
+		font-size: 24px;
+	
+	}
+	#expe2 {
+	
+		width: 200px;
+		height: 22px;
+	}
+	#expe3 {
+		font-size: 20px;
+	}
+	#expe4 {
+		font-size: 20px;
+	}
+
+	/*CONTATO*/
+
+	#h2c{
+		font-size: 25px;
+	}
+	.rede{
+		width: 60px;
+		height: 60px;
+		float: left;
+		margin-left:15px;
+	}
+	.iconew {
+		margin: 8px;
+		padding: 1px;
+		width: 45px;
+	}
+	.icone{
+		margin: 10px;
+		padding: 1px;
+		width:40px;
+	}
+	div#fac{
+		background-color: #2372a3;
+		margin-left: 8%;
+	
+	}
+
+}
+/* TABLET */
+@media (max-width: 950px) {
+
+	/*TELA INICIAL*/
+
+	h1 {
+		font-size: 60px;
+	}
+	h2.titulo {
+		font-size: 30px;
+	}
+
+	/*SOBRE*/
+
+	#tsobre {
+		text-align: justify;
+		font-size: 30px;
+	}
+	.texto {
+		font-size: 18px;
+	}
+	.cont{
+		width: 300px;
+		height: 12px;
+	}
+	.cont img {
+		width: 100%;
+		height: auto;
+	}
+
+	/*EXPERIÊNCIA*/
+
+
+
+
+	/*CONTATO*/
 	#h2c{
 		font-size: 35px;
 		
@@ -375,32 +447,3 @@ div#wpp {
 	}
 
 }
-
-
-@media(max-width: 600px) {
-	#h2c{
-		font-size: 25px;
-	}
-	.rede{
-		width: 60px;
-		height: 60px;
-		float: left;
-		margin-left:15px;
-	}
-	.iconew {
-		margin: 8px;
-		padding: 1px;
-		width: 45px;
-	}
-	.icone{
-		margin: 10px;
-		padding: 1px;
-		width:40px;
-	}
-	div#fac{
-		background-color: #2372a3;
-		margin-left: 16%;
-	
-	}
-}
-
