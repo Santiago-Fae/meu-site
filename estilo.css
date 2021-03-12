@@ -169,7 +169,16 @@ h2.titulo {
         ,#34b8e0,rgba(29, 51, 177, 0.89))
 }
 
-@media (max-width: 500px) {
+@media (max-width: 950px) {
+	h1 {
+		font-size: 60px;
+	}
+	h2.titulo {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 600px) {
 	h1 {
 		font-size: 50px;
 	}
@@ -220,13 +229,13 @@ h2.titulo {
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	#tsobre {
 		float: right;
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.texto {
-		font-size: 15px;
+		font-size: 16px;
 	}
 	.cont{
 		width: 200px;
@@ -270,7 +279,8 @@ h2.titulo {
 	#expe{
   		width: 100%;
   		text-align: center;
-		  height: 100px;
+		height: 100px;
+		padding: 100px;
 	}
 }
 
@@ -334,5 +344,52 @@ div#wpp {
 }
 #final {
 	text-align: center;
+}
+
+@media(max-width: 950px) {
+	#h2c{
+		font-size: 35px;
+		
+	}
+	.rede{
+		width: 60px;
+		height: 60px;
+		float: left;
+		margin-left:15px;
+	}
+	.iconew {
+		margin: 8px;
+		padding: 1px;
+		width: 45px;
+	}
+	.icone{
+		margin: 10px;
+		padding: 1px;
+		width: 40px;
+	}
+
+}
+
+
+@media(max-width: 600px) {
+	#h2c{
+		font-size: 25px;
+	}
+	.rede{
+		width: 50px;
+		height: 50px;
+		float: left;
+		margin-left:15px;
+	}
+	.iconew {
+		margin: 5px;
+		padding: 1px;
+		width: 40px;
+	}
+	.icone{
+		margin: 7px;
+		padding: 1px;
+		width:35px;
+	}
 }
 
