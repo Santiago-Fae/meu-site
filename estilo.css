@@ -279,6 +279,7 @@ h2.titulo {
 	}
 	ul#expe{
 		font-size: 25px;
+	
 	}
 	.progress {
 		font-size: px;
@@ -368,6 +369,11 @@ div#wpp {
 		padding: 1px;
 		width: 40px;
 	}
+	div#fac{
+		background-color: #2372a3;
+		margin-left: 25%;
+	
+	}
 
 }
 
@@ -377,20 +383,25 @@ div#wpp {
 		font-size: 25px;
 	}
 	.rede{
-		width: 50px;
-		height: 50px;
+		width: 60px;
+		height: 60px;
 		float: left;
 		margin-left:15px;
 	}
 	.iconew {
-		margin: 5px;
+		margin: 8px;
 		padding: 1px;
-		width: 40px;
+		width: 45px;
 	}
 	.icone{
-		margin: 7px;
+		margin: 10px;
 		padding: 1px;
-		width:35px;
+		width:40px;
+	}
+	div#fac{
+		background-color: #2372a3;
+		margin-left: 16%;
+	
 	}
 }
 
