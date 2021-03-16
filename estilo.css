@@ -379,7 +379,7 @@ div#wpp {
 
 		background-attachment: fixed;			
 		background-position: center;
-		background-repeat: no-repeat;
+		background-repeat: unset;
 		background-size: cover;
 		
 		}		
