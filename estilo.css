@@ -379,7 +379,7 @@ div#wpp {
 
 		background-attachment: fixed;			
 		background-position: center;
-		background-repeat: unset;
+		background-repeat:no-repeat ;
 		background-size: cover;
 		
 		}		
@@ -402,11 +402,11 @@ div#wpp {
 		font-size: 16px;
 		text-indent: 1.5em;
 	}
-	#gato{
+	.cont{
 		width: 200px;
-		height: 12px;
+		height: 15px;
 	}
-	#gato{
+	.cont img {
 		width: 100%;
 		height: auto;
 	}
