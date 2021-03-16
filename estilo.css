@@ -382,7 +382,7 @@ div#wpp {
 	/*TELA INICIAL*/
 
 	#plx {
-		background-attachment: fixed;			
+		background-attachment: unset;			
 		background-position: center;
 		background-repeat:no-repeat ;
 		background-size: cover;
