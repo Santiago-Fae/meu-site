@@ -117,8 +117,10 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
         background:url(imagens/programa22.jpg);
         background-attachment: fixed;
         background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover ;
+        background-size: cover;
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+   		 box-sizing: border-box;
 	
     }
     .witle {
@@ -181,6 +183,7 @@ h2.titulo {
 	height: 600px;
 	background:#f7f7f7;
 	
+	
 }
 
 
@@ -197,6 +200,10 @@ h2.titulo {
 	background-repeat: no-repeat;
 	background-size: cover ;
 	color: rgb(255, 255, 255);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
 } 
 #tituloe {
 	font-size: 60px;
@@ -379,6 +386,10 @@ div#wpp {
 		background-position: center;
 		background-repeat:no-repeat ;
 		background-size: cover;
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+   		 box-sizing: border-box;
+	
 		
 		}		
 
