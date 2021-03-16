@@ -114,9 +114,10 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 
     /*PARALLAX*/
     #plx {
-        background:url(imagens/programa22.jpg);
-        background-attachment: unset;
+        background:url(imagens/programa2.jpg);
+        background-attachment: fixed;
         background-position: center;
+		background-repeat: no-repeat;
         background-size: cover;
 		-webkit-box-sizing: border-box;
     	-moz-box-sizing: border-box;
@@ -382,8 +383,9 @@ div#wpp {
 	/*TELA INICIAL*/
 
 	#plx {
-		background-attachment: unset;			
-		background-position: center;
+		background:url(imagens/programa2.jpg);
+		background-attachment: fixed;			
+		background-position:45%;
 		background-repeat:no-repeat ;
 		background-size: cover;
 		-webkit-box-sizing: border-box;
@@ -404,6 +406,8 @@ div#wpp {
 
 	/*SOBRE*/
 
+	
+
 	h2#tsobre {
 		font-size: 27px;
 	}
@@ -421,7 +425,9 @@ div#wpp {
 	}
 
 	/*EXPERIÊNCIA*/
-
+	#plx2 {
+		background-attachment: unset;
+	}
 	#tituloe {
 		font-size: 30px;
 	}
@@ -464,7 +470,7 @@ div#wpp {
 	}
 	div#fac{
 		background-color: #2372a3;
-		margin-left: 6%;
+		margin-left: 3%;
 	
 	}
 
