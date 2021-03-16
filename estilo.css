@@ -115,7 +115,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
     /*PARALLAX*/
     #plx {
         background:url(imagens/programa22.jpg);
-        background-attachment: fixed;
+        background-attachment: unset;
         background-position: center;
         background-size: cover;
 		-webkit-box-sizing: border-box;
