@@ -303,7 +303,7 @@ div#wpp {
 
 /* MOBILE */
 
-@media (max-width: 600px) {
+@media(max-width: 600px) {
 
 	/*TELA INICIAL*/
 
@@ -318,12 +318,10 @@ div#wpp {
 	/*SOBRE*/
 
 	h2#tsobre {
-		text-align: rig;
 		font-size: 25px;
 	}
 	.texto {
-		position: relative;
-		font-size: 16px;
+		font-size: 15px;
 		text-indent: 1.5em;
 	}
 	#gato{
@@ -379,7 +377,7 @@ div#wpp {
 	}
 	div#fac{
 		background-color: #2372a3;
-		margin-left: 8%;
+		margin-left: 6%;
 	
 	}
 
@@ -420,7 +418,7 @@ div#wpp {
 
 
 	/*CONTATO*/
-	
+
 	#h2c{
 		font-size: 35px;
 		
