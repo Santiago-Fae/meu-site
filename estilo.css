@@ -171,7 +171,7 @@ h2.titulo {
 }
 
 
-.texto {
+.textos {
 	font-size: 25px;
 	text-indent: 3em;
 }
@@ -211,8 +211,8 @@ h2.titulo {
 	font-size: 35px;
 }
 #expe2 {
-	width: 400px;
-	height: 20px;
+	width: 450px;
+	height: 23px;
 }
 #expe3 {
 	font-size: 30px;
@@ -287,18 +287,98 @@ div#wpp {
 
 
 
+/* TABLET */
+@media (max-width: 950px) {
+
+	/*TELA INICIAL*/
+
+	h1 {
+		font-size: 80px;
+	}
+	h2.titulo {
+		font-size: 40px;
+	}
+
+	/*SOBRE*/
+
+	#tsobre {
+		text-align: justify;
+		font-size: 34px;
+	}
+	.textos {
+		font-size: 22px;
+	}
+	.cont{
+		width: 370px;
+		height: 15px;
+	}
+	.cont img {
+		width: 100%;
+		height: auto;
+	}
+
+	/*EXPERIÊNCIA*/
+
+	#tituloe {
+		font-size: 40px;
+	}
+	#expe1{
+		font-size: 30px;
+	
+	}
+	#expe2 {
+	
+		width: 350px;
+		height: 20px;
+	}
+	#expe3 {
+		font-size: 28px;
+	}
+	#expe4 {
+		font-size: 28px;
+	}
 
 
+	/*CONTATO*/
+
+	#h2c{
+		font-size: 40px;
+		
+	}
+	.rede{
+		width: 60px;
+		height: 60px;
+		float: left;
+		margin-left:15px;
+	}
+	.iconew {
+		margin: 8px;
+		padding: 1px;
+		width: 45px;
+	}
+	.icone{
+		margin: 10px;
+		padding: 1px;
+		width: 40px;
+	}
+	div#fac{
+		background-color: #2372a3;
+		margin-left: 25%;
+	
+	}
+
+}
 /* MOBILE */
 
-@media (max-width: 600px) {
+@media(max-width: 600px) {
 
 	/*TELA INICIAL*/
 
 	#plx {
 
 
-		background-attachment: fixed;			background-position: center;
+		background-attachment: fixed;			
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -319,7 +399,7 @@ div#wpp {
 		font-size: 27px;
 	}
 	.textos {
-		font-size: 14px;
+		font-size: 16px;
 		text-indent: 1.5em;
 	}
 	#gato{
@@ -376,70 +456,6 @@ div#wpp {
 	div#fac{
 		background-color: #2372a3;
 		margin-left: 6%;
-	
-	}
-
-}
-/* TABLET */
-@media (max-width: 950px) {
-
-	/*TELA INICIAL*/
-
-	h1 {
-		font-size: 60px;
-	}
-	h2.titulo {
-		font-size: 30px;
-	}
-
-	/*SOBRE*/
-
-	#tsobre {
-		text-align: justify;
-		font-size: 30px;
-	}
-	.texto {
-		font-size: 18px;
-	}
-	.cont{
-		width: 300px;
-		height: 12px;
-	}
-	.cont img {
-		width: 100%;
-		height: auto;
-	}
-
-	/*EXPERIÊNCIA*/
-
-
-
-
-	/*CONTATO*/
-
-	#h2c{
-		font-size: 35px;
-		
-	}
-	.rede{
-		width: 60px;
-		height: 60px;
-		float: left;
-		margin-left:15px;
-	}
-	.iconew {
-		margin: 8px;
-		padding: 1px;
-		width: 45px;
-	}
-	.icone{
-		margin: 10px;
-		padding: 1px;
-		width: 40px;
-	}
-	div#fac{
-		background-color: #2372a3;
-		margin-left: 25%;
 	
 	}
 
