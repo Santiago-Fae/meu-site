@@ -399,7 +399,7 @@ div#wpp {
 		font-size: 27px;
 	}
 	.textos {
-		font-size: 16px;
+		font-size: 18px;
 		text-indent: 1.5em;
 	}
 	.cont{
@@ -412,6 +412,9 @@ div#wpp {
 	}
 
 	/*EXPERIÊNCIA*/
+
+	#plx2 {
+		background-attachment: unset;
 
 	#tituloe {
 		font-size: 30px;
