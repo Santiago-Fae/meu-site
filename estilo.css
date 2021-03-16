@@ -129,18 +129,6 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
         font-weight: bold;
     }
 
-	@media (max-width: 500px) {
-		#plx {
-
-			background:url(imagens/programa22p.jpg);
-			background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover ;
-		
-		}		
-	}
-
 
 
 /*TELA INICIAL*/
@@ -303,9 +291,19 @@ div#wpp {
 
 /* MOBILE */
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
 
 	/*TELA INICIAL*/
+
+	#plx {
+
+
+		background-attachment: fixed;			background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		}		
+
 
 	h1 {
 		font-size: 50px;
@@ -318,10 +316,10 @@ div#wpp {
 	/*SOBRE*/
 
 	h2#tsobre {
-		font-size: 25px;
+		font-size: 27px;
 	}
-	.texto {
-		font-size: 15px;
+	.textos {
+		font-size: 14px;
 		text-indent: 1.5em;
 	}
 	#gato{
@@ -348,10 +346,10 @@ div#wpp {
 		height: 22px;
 	}
 	#expe3 {
-		font-size: 20px;
+		font-size: 22px;
 	}
 	#expe4 {
-		font-size: 20px;
+		font-size: 22px;
 	}
 
 	/*CONTATO*/
