@@ -66,7 +66,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 	line-height: 80px;
 	margin-right: 40 px;
 	cursor: pointer;
-	display: none;
+	display:  none;
 }
 #check {
 	display: none;
@@ -87,8 +87,8 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 	}
 	ul.fir{
 		position: fixed;
-		width: 100%;
-		height: 100vh;
+		width: 200px;
+		height: 400px;
 		background: #1d075f;
 		top: 70px;
 		left: -100%;
@@ -99,17 +99,27 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 		display: block;
 		margin: 50px 0;
 		line-height: 30px;
+		
+		
 	}
 	nav ul.fir li a {
 		font-size: 20px;
+		
 	}
 	nav ul.fir li a:hover, nav ul li a.active {
 		background: none;
 		color: #5534af;
 	}
+	
+
 	#check:checked ~ ul.fir {
-		left: 0;
+		left:0;
 	}
+
+
+
+
+
 }
 
     /*PARALLAX*/
