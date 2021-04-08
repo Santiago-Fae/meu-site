@@ -87,8 +87,8 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 	}
 	ul.fir{
 		position: fixed;
-		width: 200px;
-		height: 400px;
+		width: 100%;
+		height: 100vh;
 		background: #1d075f;
 		top: 70px;
 		left: -100%;
