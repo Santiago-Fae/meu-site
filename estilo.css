@@ -10,10 +10,13 @@
 body {
     background: linear-gradient(
 80deg
-,#d340ae,rgba(79, 3, 129, 0.89))
-
+,#d340ae,rgba(79, 3, 129, 0.89));
+overflow-x: none;
 }
-     
+
+a {
+	text-decoration: none;
+}     
 
 header {
     height: 50px;
@@ -24,6 +27,7 @@ nav {
 	height: 75px;
 	width: 100%;
     position: fixed;
+	z-index: 1;
     
 }
 label.logo {
@@ -160,7 +164,7 @@ h1 {
 }
 h2.titulo {
     padding: 30px 0 0;
-	font-size: 35px;
+	font-size: 40px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
@@ -177,17 +181,19 @@ h2.titulo {
 /*SOBRE*/
 #tsobre {
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 #gato{
-	margin: 1px 8px 0px 1px;
+	margin: 80px 8px 0px 10px;
 }
 
 
 .textos {
 	font-size: 25px;
 	text-indent: 3em;
+	margin: 0 30px 0 670px;
+	text-align: justify;
 }
 #wines {
 	background-image: url(imagens/gatot.jpg);
@@ -218,34 +224,41 @@ h2.titulo {
 
 } 
 #tituloe {
-	font-size: 60px;
+	font-size: 40px;
 	text-align: center;
 }
 
 .witle2 {
-	height: 600px;
+	height: 1000px;
 	font-size:20px;
 }
 #expe1 {
-	font-size: 35px;
+	font-size: 25px;
 }
 #expe2 {
 	width: 450px;
 	height: 23px;
 }
 #expe3 {
-	font-size: 30px;
+	font-size: 25px;
 }
 #expe4 {
-	font-size: 30px;
+	font-size: 25px;
+}
+.card-body {
+	color: rgb(0, 0, 0);
+
 }
 
+.cartoes {	
+	overflow-x: auto;
+}
 
 /*CONTATO*/
 
 #h2c {
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 	color: rgb(255, 255, 255);
 }
 #tamanho {
