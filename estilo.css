@@ -335,7 +335,7 @@ div#wpp {
 	}
 	.textos {
 		font-size: 20px;
-		margin-left: 400px;
+		margin-top: 100px;
 	}
 	.cont{
 		width: 370px;
@@ -356,6 +356,9 @@ div#wpp {
 	
 	}
 	
+	.cartoes {
+		width: 92%;
+	}
 	
 
 	/*CONTATO*/
@@ -423,7 +426,7 @@ div#wpp {
 		font-size: 25px;
 	}
 	#gato{
-		margin: 20px 8px 0px 10px;
+		margin: 20px 12px 0px 12px;
 	}
 	.textos {
 		font-size: 18px;
@@ -453,10 +456,13 @@ div#wpp {
 		font-size: 20px;
 	
 	}
-
-	.cartoes {
-	;
+	#calc {
+		display: none;
 	}
+	.witle2 {
+		height: 1350px;
+	}
+	
 	
 
 	/*CONTATO*/
