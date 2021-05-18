@@ -158,8 +158,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 h1 {
     font-size: 70px;
     padding: 1px 0px 1px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+ 
     
 }
 h2.titulo {
@@ -185,7 +184,7 @@ h2.titulo {
 }
 
 #gato{
-	margin: 80px 8px 0px 10px;
+	margin: 85px 8px 0px 10px;
 }
 
 
@@ -252,7 +251,7 @@ h2.titulo {
 
 .cartoes {	
 	overflow-x: none;
-	width: 90%;
+	width: 97%;
 }
 
 /*CONTATO*/
@@ -440,9 +439,16 @@ div#wpp {
 	h2#tsobre {
 		font-size: 27px;
 	}
+	#gato{
+		margin: 20px 8px 0px 10px;
+	}
 	.textos {
 		font-size: 18px;
 		text-indent: 1.5em;
+		margin: 0px 10px 0 5px;
+	}
+	#wines {
+		height: 650px;
 	}
 	.cont{
 		width: 200px;
@@ -475,6 +481,7 @@ div#wpp {
 	#expe4 {
 		font-size: 22px;
 	}
+	
 
 	/*CONTATO*/
 
