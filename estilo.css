@@ -127,8 +127,9 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 }
 
     /*PARALLAX*/
+
     #plx {
-        background:url(imagens/programa2.jpg);
+        background:url(imagens/programa222.jpg);
         background-attachment: fixed;
         background-position: center;
 		background-repeat: no-repeat;
@@ -138,6 +139,9 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
    		 box-sizing: border-box;
 	
     }
+
+
+
     .witle {
         padding: 40px 20px;
 		
@@ -152,7 +156,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 /*TELA INICIAL*/
   section#inicio{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -164,8 +168,6 @@ h1 {
 h2.titulo {
     padding: 30px 0 0;
 	font-size: 40px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 #contato {
@@ -234,16 +236,7 @@ h2.titulo {
 #expe1 {
 	font-size: 25px;
 }
-#expe2 {
-	width: 450px;
-	height: 23px;
-}
-#expe3 {
-	font-size: 25px;
-}
-#expe4 {
-	font-size: 25px;
-}
+
 .card-body {
 	color: rgb(0, 0, 0);
 
@@ -362,18 +355,8 @@ div#wpp {
 		font-size: 30px;
 	
 	}
-	#expe2 {
 	
-		width: 350px;
-		height: 20px;
-	}
-	#expe3 {
-		font-size: 28px;
-	}
-	#expe4 {
-		font-size: 28px;
-	}
-
+	
 
 	/*CONTATO*/
 
@@ -411,7 +394,7 @@ div#wpp {
 	/*TELA INICIAL*/
 
 	#plx {
-		background:url(imagens/programa2.jpg);
+		background:url(imagens/programa222.jpg);
 		background-attachment: fixed;			
 		background-position:45%;
 		background-repeat:no-repeat ;
@@ -437,7 +420,7 @@ div#wpp {
 	
 
 	h2#tsobre {
-		font-size: 27px;
+		font-size: 25px;
 	}
 	#gato{
 		margin: 20px 8px 0px 10px;
@@ -464,22 +447,15 @@ div#wpp {
 		background-attachment: unset;
 	}
 	#tituloe {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	#expe1{
-		font-size: 24px;
+		font-size: 20px;
 	
 	}
-	#expe2 {
-	
-		width: 200px;
-		height: 22px;
-	}
-	#expe3 {
-		font-size: 22px;
-	}
-	#expe4 {
-		font-size: 22px;
+
+	.cartoes {
+	;
 	}
 	
 
