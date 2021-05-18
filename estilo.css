@@ -253,6 +253,7 @@ h2.titulo {
 	text-align: center;
 	font-size: 40px;
 	color: rgb(255, 255, 255);
+	margin-bottom: 20px;
 }
 #tamanho {
 	height: 400px;
@@ -405,7 +406,7 @@ div#wpp {
 	#plx {
 		background:url(imagens/programa222.jpg);
 		background-attachment: fixed;			
-		background-position:45%;
+		background-position:100%;
 		background-repeat:no-repeat ;
 		background-size: cover;
 		-webkit-box-sizing: border-box;
