@@ -229,8 +229,8 @@ h2.titulo {
 }
 
 .witle2 {
-	height: 1000px;
-	font-size:20px;
+	height: 1250px;
+	font-size:25px;
 }
 #expe1 {
 	font-size: 25px;
@@ -251,7 +251,8 @@ h2.titulo {
 }
 
 .cartoes {	
-	overflow-x: auto;
+	overflow-x: none;
+	width: 90%;
 }
 
 /*CONTATO*/
@@ -334,11 +335,15 @@ div#wpp {
 	/*SOBRE*/
 
 	#tsobre {
-		text-align: justify;
-		font-size: 34px;
+		text-align: center;
+		font-size: 40px;
+	}
+	#gato{
+		margin: 160px 8px 0px 5px;
 	}
 	.textos {
-		font-size: 22px;
+		font-size: 20px;
+		margin-left: 400px;
 	}
 	.cont{
 		width: 370px;
