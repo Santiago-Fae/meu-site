@@ -22,6 +22,8 @@ header {
     height: 50px;
 }
 /*menu*/
+
+
 nav {
 	background: #000000;
 	height: 75px;
@@ -172,7 +174,8 @@ h2.titulo {
 
 #contato {
     border-radius: 50px;
-    padding: 20px;
+	font-size: 20px;
+    padding: 25px;
     background: linear-gradient(
         200deg
         ,#34b8e0,rgba(29, 51, 177, 0.89))
@@ -183,23 +186,23 @@ h2.titulo {
 #tsobre {
 	text-align: center;
 	font-size: 40px;
+	padding-top: 15px;
 }
 
 #gato{
-	margin: 85px 8px 0px 10px;
+	margin: 60px 8px 0px 13px;
 }
 
 
 .textos {
 	font-size: 25px;
-	text-indent: 3em;
 	margin: 0 30px 0 670px;
 	text-align: justify;
 }
 #wines {
 	background-image: url(imagens/gatot.jpg);
 	background-position: left;
-	height: 600px;
+	height: 550px;
 	background:#f7f7f7;
 	
 	
@@ -230,16 +233,29 @@ h2.titulo {
 }
 
 .witle2 {
-	height: 1250px;
+	height: 1300px;
 	font-size:25px;
 }
 #expe1 {
+	font-size: 29px;
+	margin-left: 13px;
+}
+
+li {
+	 list-style-type:  disc;
+	 font-size: 25px;
+	 }
+#cards {
 	font-size: 25px;
+	margin-left: 13px;
 }
 
 .card-body {
 	color: rgb(0, 0, 0);
+}
 
+.card-title {
+	font-weight: bold;
 }
 
 .cartoes {	
@@ -332,11 +348,11 @@ div#wpp {
 		font-size: 40px;
 	}
 	#gato{
-		margin: 160px 8px 0px 5px;
+		margin: 30px 8px 0px 15px;
 	}
 	.textos {
 		font-size: 30px;
-		margin: 10px 15px 0 15px;
+		margin: 5px 15px 0 15px;
 	}
 	.cont{
 		width: 370px;
@@ -356,15 +372,20 @@ div#wpp {
 	}
 	#expe1{
 		font-size: 30px;
-	
 	}
-
+	li {
+		font-size: 25px;
+	}
+	
 	.witle2 {
-		height: 1500px;
+		height: 1400px;
 	}
-	
+	.card-title {
+		font-size: 25px;
+	}
 	.cartoes {
 		width: 92%;
+		font-size: 30px;
 	}
 	
 
@@ -424,6 +445,11 @@ div#wpp {
 		font-size: 25px;
 	}
 
+	#contato {
+		font-size: 18px;
+		padding: 15px;
+	}
+	
 
 	/*SOBRE*/
 
@@ -437,11 +463,10 @@ div#wpp {
 	}
 	.textos {
 		font-size: 18px;
-		text-indent: 1.5em;
 		margin: 0px 10px 0 5px;
 	}
 	#wines {
-		height: 650px;
+		height: 580px;
 	}
 	.cont{
 		width: 200px;
@@ -460,18 +485,22 @@ div#wpp {
 		font-size: 25px;
 	}
 	#expe1{
-		font-size: 20px;
+		font-size: 22px;
 	
+	}
+	li {
+		font-size: 19px;
 	}
 	#calc {
 		display: none;
 	}
 	.witle2 {
-		height: 1350px;
+		height: 1500px;
 	}
 
 	.cartoes {
 		width: 90%;
+		font-size: 23px;
 	}
 	
 	
