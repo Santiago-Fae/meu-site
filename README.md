@@ -3,8 +3,7 @@
 
 ## Meu site
 
-Um site pessoal para usar como portifólio para apresentar meus principais projetos
-
+A personal website to use as a portfolio to present my main projects.
 
 ## Technology 
 
