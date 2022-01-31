@@ -131,7 +131,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
     /*PARALLAX*/
 
     #plx {
-        background:url(imagens/programa222.jpg);
+        background:url(../imagens/programa222.jpg);
         background-attachment: fixed;
         background-position: center;
 		background-repeat: no-repeat;
@@ -200,7 +200,7 @@ h2.titulo {
 	text-align: justify;
 }
 #wines {
-	background-image: url(imagens/gatot.jpg);
+	background-image: url(../imagens/gatot.jpg);
 	background-position: left;
 	height: 550px;
 	background:#f7f7f7;
@@ -216,7 +216,7 @@ h2.titulo {
 /*EXPERIÊNCIA*/
 
 #plx2 {
-	background:url(imagens/teclado2.jpg);
+	background:url(../imagens/teclado2.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;

@@ -1,3 +1,8 @@
+<?php 
+print_r('hello');
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,7 +28,6 @@
             <ul class="fir" id="menu">
                 <li><a onclick="removermenu()" href="#">Início</a></li>
                 <li><a onclick="removermenu()" href="#ancora">Sobre</a></li>
-                <li><a onclick="removermenu()" href="./teste.html">Sobre</a></li>
                 <li><a  href="./projetos.php">Projetos</a></li>
                 <li><a onclick="removermenu()" href="#ancora2">Experiência</a></li>
                 <li><a onclick="removermenu()" href="#ancora3">Contato</a></li>
@@ -169,4 +173,5 @@
 </section>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
+
