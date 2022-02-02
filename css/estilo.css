@@ -1,17 +1,27 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	max-width: 100%;
+	font-family: Arial, Helvetica, sans-serif;  
+	font-size: 18px;
+	padding: 0;
+	margin: 0 auto !important;
+	background: linear-gradient(90deg,#d340ae,rgba(79, 3, 129, 0.89));
+	overflow-x: none;
+}
+
 * {
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-	list-style: none;
-    font-family: Arial, Helvetica, sans-serif;  
 }
 
 
 body {
-    background: linear-gradient(
-80deg
-,#d340ae,rgba(79, 3, 129, 0.89));
-overflow-x: none;
+
 }
 
 a {
@@ -21,33 +31,36 @@ a {
 header {
     height: 50px;
 }
-/*menu*/
 
+/*menu*/
+.min-menu {
+	display: none;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.max-menu {
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	height: 100%;
+}
 
 nav {
 	background: #000000;
 	height: 75px;
 	width: 100%;
-    position: fixed;
+	position: fixed;
 	z-index: 1;
     
 }
 label.logo {
 	color: rgb(255, 255, 255);
 	font-size: 35px;
-	line-height: 80px;
-	padding: 0 100px;
 	font-weight: bold;
-}
-nav ul.fir {
-	float: right;
-	margin-right: 20px;
-	
 }
 nav ul.fir li {
 	display: inline-block;
-	line-height: 80px;
-	margin: 0 5px;
 }
 nav ul.fir li a {
 	color: white;
@@ -77,6 +90,7 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 #check {
 	display: none;
 }
+
 @media (max-width: 952px){
 	label.logo{
 		font-size: 23px;
@@ -87,20 +101,34 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 	}
 }
 @media (max-width: 858px){
+	.max-menu {
+		display: none;
+	}
+	.min-menu {
+		display: flex;
+	}
 	.checkbtn {
 		display: block;
-
 	}
-	ul.fir{
+	.fir {
+		left: -100%;
+	}
+	.min-menu > ul {
+		left: 100%;
+		position: fixed;
+		transition: all .5s;
+	}
+	.aparecerMenu{
 		position: fixed;
 		width: 100%;
 		height: 100vh;
 		background: #1d075f;
 		top: 70px;
-		left: -100%;
+		left: 0 !important;
 		text-align: center;
 		transition: all .5s;
 	}
+
 	nav ul.fir li{
 		display: block;
 		margin: 50px 0;
@@ -122,21 +150,17 @@ nav ul.fir li a.active, nav ul.fir li a:hover {
 		left:0;
 	}
 
-
-
-
-
 }
 
     /*PARALLAX*/
 
     #plx {
-        background:url(../imagens/programa222.jpg);
-        background-attachment: fixed;
-        background-position: center;
-		background-repeat: no-repeat;
-        background-size: cover;
-		-webkit-box-sizing: border-box;
+			background:url(../imagens/programa222.jpg);
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			-webkit-box-sizing: border-box;
     	-moz-box-sizing: border-box;
    		 box-sizing: border-box;
 	
@@ -172,25 +196,21 @@ h2.titulo {
 	font-size: 40px;
 }
 
-#contato {
-    border-radius: 50px;
+.contact {
+	border-radius: 50px;
 	font-size: 20px;
-    padding: 25px;
-    background: linear-gradient(
-        200deg
-        ,#34b8e0,rgba(29, 51, 177, 0.89))
+	padding: 25px;
+	background: linear-gradient( 200deg,#34b8e0,rgba(29, 51, 177, 0.89))
 }
 
-
 /*SOBRE*/
+#wines {	
+	background:#f7f7f7;
+}
 #tsobre {
 	text-align: center;
 	font-size: 40px;
 	padding-top: 15px;
-}
-
-#gato{
-	margin: 60px 8px 0px 13px;
 }
 
 
@@ -199,15 +219,12 @@ h2.titulo {
 	margin: 0 30px 0 670px;
 	text-align: justify;
 }
-#wines {
-	background-image: url(../imagens/gatot.jpg);
-	background-position: left;
-	height: 550px;
-	background:#f7f7f7;
-	
-	
-}
 
+.itens-sobre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 
 
@@ -247,7 +264,6 @@ li {
 	 }
 #cards {
 	font-size: 25px;
-	margin-left: 13px;
 }
 
 .card-body {
@@ -260,7 +276,6 @@ li {
 
 .cartoes {	
 	overflow-x: none;
-	width: 97%;
 }
 
 /*CONTATO*/
@@ -271,9 +286,7 @@ li {
 	color: rgb(255, 255, 255);
 	margin-bottom: 20px;
 }
-#tamanho {
-	height: 400px;
-}
+
 div#sss {
     margin: 100px;
 }
@@ -292,11 +305,16 @@ div#sss {
     transform: translateY(-20px);
     box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
 }
+.listIcons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0 0 20%;
+}
 
 div#fac{
     background-color: #2372a3;
-	margin-left: 35%;
-
 }
 div#ins{
    background-color: #3f729b;
@@ -362,9 +380,7 @@ div#wpp {
 		width: 100%;
 		height: auto;
 	}
-	#wines {
-		height: 900px;
-	}
+
 	/*EXPERIÊNCIA*/
 
 	#tituloe {
@@ -383,19 +399,16 @@ div#wpp {
 	.card-title {
 		font-size: 25px;
 	}
-	.cartoes {
-		width: 92%;
-		font-size: 30px;
-	}
+
 	
 
 	/*CONTATO*/
 
-	#h2c{
+	#h2c {
 		font-size: 40px;
 		
 	}
-	.rede{
+	.rede {
 		width: 90px;
 		height: 90px;
 		float: left;
@@ -406,15 +419,14 @@ div#wpp {
 		padding: 1px;
 		width: 65px;
 	}
-	.icone{
+	.icone {
 		margin: 15px;
 		padding: 1px;
 		width: 60px;
 	}
-	div#fac{
+	div#fac {
 		background-color: #2372a3;
-		margin-left: 18%;
-	
+
 	}
 
 }
@@ -424,28 +436,15 @@ div#wpp {
 
 	/*TELA INICIAL*/
 
-	#plx {
-		background:url(imagens/programa222.jpg);
-		background-attachment: fixed;			
-		background-position:45%;
-		background-repeat:no-repeat ;
-		background-size: cover;
-		-webkit-box-sizing: border-box;
-    	-moz-box-sizing: border-box;
-   		 box-sizing: border-box;
-	
-		
-		}		
-
-
 	h1 {
 		font-size: 50px;
 	}
+
 	h2.titulo {
 		font-size: 25px;
 	}
 
-	#contato {
+	.contact {
 		font-size: 18px;
 		padding: 15px;
 	}
@@ -453,22 +452,17 @@ div#wpp {
 
 	/*SOBRE*/
 
-	
-
 	h2#tsobre {
 		font-size: 25px;
 	}
-	#gato{
+	#gato {
 		margin: 20px 12px 0px 12px;
 	}
 	.textos {
 		font-size: 18px;
 		margin: 0px 10px 0 5px;
 	}
-	#wines {
-		height: 580px;
-	}
-	.cont{
+	.cont {
 		width: 200px;
 		height: 15px;
 	}
@@ -499,7 +493,6 @@ div#wpp {
 	}
 
 	.cartoes {
-		width: 90%;
 		font-size: 23px;
 	}
 	
@@ -529,8 +522,6 @@ div#wpp {
 	}
 	div#fac{
 		background-color: #2372a3;
-		margin-left: 3%;
-	
 	}
 
 }
